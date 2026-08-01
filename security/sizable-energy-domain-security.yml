@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: sizableenergy.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep  5 19:14:56 2026 GMT
+  hsts: false
+domains:
+- domain: sizableenergy.com
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: false

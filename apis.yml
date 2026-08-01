@@ -1,8 +1,25 @@
 aid: sizable-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sizable-energy.png
 name: Sizable Energy
-description: 'Sizable Energy is a company surfaced as a portfolio company of playground-global and added
-  to the API Evangelist network as a stub for enrichment. Sector: energy-transition. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Sizable Energy is a Milan, Italy based clean-energy company developing
+  offshore pumped hydro energy storage. Its patented system pairs subsea and floating
+  reservoirs connected by pipes with reversible pump-turbines that move saturated sea-salt
+  brine between them to deliver long-duration, grid-scale energy storage. The modular,
+  scalable design leverages proven pumped-hydro technology with zero land use and integrates
+  with floating wind and solar installations. It was added to the API Evangelist network
+  as a portfolio company of Playground Global; as of this enrichment pass the company
+  publishes no public API, developer portal, or SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/sizable-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Energy Transition
+- Energy Storage
+- Pumped Hydro
+- Offshore
+- Long-Duration Energy Storage
+- Renewable Energy
+- Clean Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://sizableenergy.com/
+- type: DomainSecurity
+  url: security/sizable-energy-domain-security.yml
+- type: Blog
+  url: https://sizableenergy.com/news
+- type: PrivacyPolicy
+  url: https://sizableenergy.com/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
